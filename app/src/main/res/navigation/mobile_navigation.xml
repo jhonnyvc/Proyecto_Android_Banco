@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragAdicion">
+
+    <fragment
+        android:id="@+id/fragAdicion"
+        android:name="utp.edu.proybanco.fragAdicion"
+        android:label=""
+        tools:layout="@layout/fragment_frag_adicion" />
+    <fragment
+        android:id="@+id/fragListado"
+        android:name="utp.edu.proybanco.fragListado"
+        android:label=""
+        tools:layout="@layout/fragment_frag_listado" />
+    <fragment
+        android:id="@+id/fragConsulta"
+        android:name="utp.edu.proybanco.fragConsulta"
+        android:label=""
+        tools:layout="@layout/fragment_frag_consulta" />
+</navigation>
